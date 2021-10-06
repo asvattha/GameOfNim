@@ -24,9 +24,8 @@ namespace GameOfNim
         public string play()
         {
             int marblesPicked = 0;
-            int marblesRemaining = pile.getMarbles();
-
             int ix = 0;
+
             IPlayer player = players[ix];
             
 
