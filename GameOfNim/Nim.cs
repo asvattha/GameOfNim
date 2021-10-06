@@ -36,6 +36,7 @@ namespace GameOfNim
                 pile.removeMarbles(marblesPicked);
                 Console.WriteLine($"{player.playerName()} picked {marblesPicked} and left with {pile.getMarbles()} marbles");
 
+                /*
                 if (ix == 0)
                 {
                     ix = 1;
@@ -45,6 +46,8 @@ namespace GameOfNim
                 {
                     ix = 0;
                 }
+                */
+                ix = ++ix % 2;
                 player = players[ix];
                 
             }
