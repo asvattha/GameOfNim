@@ -47,7 +47,7 @@ namespace GameOfNim
                     ix = 0;
                 }
                 */
-                ix = ++ix % 2;
+                ix = (ix + 1) % 2;
                 player = players[ix];
                 
             }
